@@ -11,6 +11,24 @@ body{
 	z-index: 1;
 }
 
+.instructions{
+	display: inline-block;
+	width: 250px;
+	font-family: 'Bangers', cursive;
+	color: black;
+	font-size: 30px;
+	line-height: 45px;
+	padding-top: 75px;
+	margin-left: -100px;
+}
+
+.instructions p + p {
+	padding-left: 300px; 
+	padding-top: 90px;
+	width: 300px;
+	color: #E60000;
+}
+
 .ryu{
 	float: left;
 	width: 659px;
