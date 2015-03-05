@@ -34,19 +34,21 @@ function playHadouken () {
 }
 
 $(document).keydown(function(e){
-    if (e.keyCode==88) 
+    if (e.keyCode==88) {
 		//window.alert("working");
 		$('.ryu-ready').hide();
 		$('.ryu-still').hide();
 		$('.ryu-throwing').hide();
 		$('.ryu-cool').show();
+	}
 });	
 
 $(document).keyup(function(e){
-    if (e.keyCode==88) 
+    if (e.keyCode==88) {
 		//window.alert("working");
 		$('.ryu-still').show();
 		$('.ryu-cool').hide();
 		$('.ryu-ready').hide();
 		$('.ryu-throwing').hide();
+	}	
 });	
